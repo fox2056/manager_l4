@@ -1,5 +1,5 @@
 [package]
-name = "excel-merger"
+name = "l4-filter"
 version = "0.1.0"
 edition = "2021"
 
@@ -13,3 +13,8 @@ winapi = { version = "0.3.9", features = ["winuser", "windef", "shellapi", "impl
 chrono = "0.4"
 regex = "1.5"
 rust_xlsxwriter = "0.62.0"
+winres = "0.1"
+open = "3.2.0"
+
+[build-dependencies]
+winres = "0.1"
